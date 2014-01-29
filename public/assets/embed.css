@@ -16,6 +16,30 @@ p code {
   border-radius: 3px;
 }
 
-.timeline-comment {
+.timeline-comment p, strong {
   font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
 }
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:focus, a:active {
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+}
+:focus {
+    outline: medium none;
+}
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+a, a:visited, a:active {
+    color: #8AB9D1;
+    transition: all 0.25s ease-in-out 0s;
+}
+
