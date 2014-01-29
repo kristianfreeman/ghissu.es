@@ -16,7 +16,7 @@ p code {
   border-radius: 3px;
 }
 
-.timeline-comment p, strong {
+.timeline-comment {
   font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
 }
 
