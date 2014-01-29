@@ -15,3 +15,7 @@ p code {
   background-color: #F8F8F8;
   border-radius: 3px;
 }
+
+.timeline-comment {
+  font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}

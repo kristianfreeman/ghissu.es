@@ -16,4 +16,5 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-Embed::Application.config.secret_token = Figaro.env.app_key
+Embed::Application.config.secret_token = ENV['APP_KEY']
+Embed::Application.config.secret_key_base = ENV['APP_KEY_BASE']

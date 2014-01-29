@@ -3,8 +3,8 @@ class ApplicationController < ActionController::API
 
   def set_client
     @client = Octokit::Client.new \
-      client_id:     Figaro.env.octokit_key,
-      client_secret: Figaro.env.octokit_secret,
+      client_id:     ENV["OCTOKIT_KEY"],
+      client_secret: ENV["OCTOKIT_SECRET"],
       default_media_type: "application/vnd.github.VERSION.html+json"
   end
 end
