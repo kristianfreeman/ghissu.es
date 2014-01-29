@@ -1,0 +1,17 @@
+pre {
+  background-color: #F8F8F8;
+  border: 1px solid #DDD;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+p code {
+  margin: 0px 2px;
+  padding: 0px 5px;
+  border: 1px solid #DDD;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+}
